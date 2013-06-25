@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', require: 'sinatra/base'
+gem 'sinatra', :github => "sinatra/sinatra"
+gem 'nokogiri'
+gem 'sqlite3'
+gem 'open-uri'
